@@ -4,7 +4,7 @@
 [[http://www.gnu.org/software/emacs/manual/html_node/emacs/Init-File.html][initialization file]] to an [[http://orgmode.org/][=org-mode=]] literate programming
 initialization.
 
-* Getting Starting
+* Getting Started
 
   To try =max= without replacing an existing Emacs configuration, run
   the =emacs.sh= script.
