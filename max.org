@@ -1,0 +1,8 @@
+#+TITLE: Literate =.emacs.d=
+#+STARTUP: showall
+
+* Open /this/ file!
+
+  #+BEGIN_SRC emacs-lisp
+    (find-file max/init-file)
+  #+END_SRC

@@ -1,0 +1,36 @@
+#+TITLE: max
+
+=max= is a simple example of how to bootstrap [[https://www.gnu.org/software/emacs/][Emacs]] from a typical
+[[http://www.gnu.org/software/emacs/manual/html_node/emacs/Init-File.html][initialization file]] to an [[http://orgmode.org/][=org-mode=]] literate programming
+initialization.
+
+* Getting Starting
+
+  To try =max= without replacing an existing Emacs configuration, run
+  the =emacs.sh= script.
+
+  It does two things:
+
+  1. Temporarily sets =HOME= to the full path to this directory.
+  2. Runs Emacs.
+
+  =1.= means that Emacs will implicitly load the =./.emacs.d/init.el=
+  file included in this repository.  This file is responsible for
+  loading the Emacs Lisp [[http://orgmode.org/manual/Working-With-Source-Code.html#Working-With-Source-Code][code blocks]] present in the =max.org= file in
+  /this/ directory.
+
+* Cool… what?
+
+  Emacs initialization files [[http://www.emacswiki.org/emacs/InitFile][can become very complex]].  [[http://orgmode.org/][=org-mode=]] is a
+  fantastic Emacs [[https://www.gnu.org/software/emacs/manual/html_node/emacs/Major-Modes.html][major mode]] that can help create, organize and
+  maintain a custom Emacs configuration.
+
+  #+BEGIN_QUOTE
+    Org is a mode for keeping notes, maintaining TODO lists, and doing
+    project planning with a fast and effective plain-text system. --
+    [[http://orgmode.org/manual/Summary.html#Summary][Org Manual]]
+  #+END_QUOTE
+
+  If you are new to Emacs and/or [[http://orgmode.org/][=org-mode=]] this can be a difficult
+  approach.  =max='s goal is to make creating and maintaining a
+  literate programming Emacs configuration file as easy as it can be.
